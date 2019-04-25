@@ -7,7 +7,8 @@ def summon_captain_planet(arr)
 end
 
 def long_planeteer_calls(arr)
-  arr.map
+  arr.map do |x|
+    if x.length >=
 end
 
 def find_the_cheese# code an argument here
