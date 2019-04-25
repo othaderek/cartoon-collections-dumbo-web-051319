@@ -8,7 +8,11 @@ end
 
 def long_planeteer_calls(arr)
   arr.map do |x|
-    if x.length >=
+    if x.length > 4
+      puts true 
+    else
+      puts false
+    end
 end
 
 def find_the_cheese# code an argument here
